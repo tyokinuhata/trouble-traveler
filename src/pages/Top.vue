@@ -5,7 +5,9 @@
 </template>
 
 <script>
-export default {
-  name: 'top'
-}
+  import data from './data.json'
+
+  export default {
+    data: data,
+  }
 </script>

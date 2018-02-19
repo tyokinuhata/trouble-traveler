@@ -1,4 +1,189 @@
 {
-  "id": 1,
-  "preference": "兵庫県"
+  "result": [
+    {
+      "id": 1,
+      "preference": "北海道"
+    },
+    {
+      "id": 2,
+      "preference": "青森県"
+    },
+    {
+      "id": 3,
+      "preference": "岩手県"
+    },
+    {
+      "id": 4,
+      "preference": "宮城県"
+    },
+    {
+      "id": 5,
+      "preference": "秋田県"
+    },
+    {
+      "id": 6,
+      "preference": "山形県"
+    },
+    {
+      "id": 7,
+      "preference": "福島県"
+    },
+    {
+      "id": 8,
+      "preference": "茨城県"
+    },
+    {
+      "id": 9,
+      "preference": "栃木県"
+    },
+    {
+      "id": 10,
+      "preference": "群馬県"
+    },
+    {
+      "id": 11,
+      "preference": "埼玉県"
+    },
+    {
+      "id": 12,
+      "preference": "千葉県"
+    },
+    {
+      "id": 13,
+      "preference": "東京都"
+    },
+    {
+      "id": 14,
+      "preference": "神奈川県"
+    },
+    {
+      "id": 15,
+      "preference": "新潟県"
+    },
+    {
+      "id": 16,
+      "preference": "富山県"
+    },
+    {
+      "id": 17,
+      "preference": "石川県"
+    },
+    {
+      "id": 18,
+      "preference": "福井県"
+    },
+    {
+      "id": 19,
+      "preference": "山梨県"
+    }, {
+      "id": 20,
+      "preference": "長野県"
+    },
+    {
+      "id": 21,
+      "preference": "岐阜県"
+    },
+    {
+      "id": 22,
+      "preference": "静岡県"
+    },
+    {
+      "id": 23,
+      "preference": "愛知県"
+    }, {
+      "id": 24,
+      "preference": "三重県"
+    },
+    {
+      "id": 25,
+      "preference": "滋賀県"
+    },
+    {
+      "id": 26,
+      "preference": "京都府"
+    },
+    {
+      "id": 27,
+      "preference": "大阪府"
+    },
+    {
+      "id": 28,
+      "preference": "兵庫県"
+    },
+    {
+      "id": 29,
+      "preference": "奈良県"
+    },
+    {
+      "id": 30,
+      "preference": "和歌山県"
+    },
+    {
+      "id": 31,
+      "preference": "鳥取県"
+    },
+    {
+      "id": 32,
+      "preference": "島根県"
+    },
+    {
+      "id": 33,
+      "preference": "岡山県"
+    },
+    {
+      "id": 34,
+      "preference": "広島県"
+    }, {
+      "id": 35,
+      "preference": "山口県"
+    },
+    {
+      "id": 36,
+      "preference": "徳島県"
+    },
+    {
+      "id": 37,
+      "preference": "香川県"
+    },
+    {
+      "id": 38,
+      "preference": "愛媛県"
+    },
+    {
+      "id": 39,
+      "preference": "高知県"
+    },
+    {
+      "id": 40,
+      "preference": "福岡県"
+    },
+    {
+      "id": 41,
+      "preference": "佐賀県"
+    },
+    {
+      "id": 42,
+      "preference": "長崎県"
+    },
+    {
+      "id": 43,
+      "preference": "熊本県"
+    },
+    {
+      "id": 44,
+      "preference": "大分県"
+    },
+    {
+      "id": 45,
+      "preference": "宮崎県"
+    },
+    {
+      "id": 46,
+      "preference": "鹿児島県"
+    },
+    {
+      "id": 47,
+      "preference": "沖縄県"
+    }
+  ]
 }

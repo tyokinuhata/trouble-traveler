@@ -1,189 +1,285 @@
 {
   "result": [
     {
-      "id": 1,
-      "preference": "北海道"
+      "prefId": 1,
+      "preference": "北海道",
+      "regionId": 1,
+      "region": "北海道"
     },
     {
-      "id": 2,
-      "preference": "青森県"
+      "prefId": 2,
+      "preference": "青森県",
+      "regionId": 2,
+      "region": "東北"
     },
     {
-      "id": 3,
-      "preference": "岩手県"
+      "prefId": 3,
+      "preference": "岩手県",
+      "regionId": 2,
+      "region": "東北"
     },
     {
-      "id": 4,
-      "preference": "宮城県"
+      "prefId": 4,
+      "preference": "宮城県",
+      "regionId": 2,
+      "region": "東北"
     },
     {
-      "id": 5,
-      "preference": "秋田県"
+      "prefId": 5,
+      "preference": "秋田県",
+      "regionId": 2,
+      "region": "東北"
     },
     {
-      "id": 6,
-      "preference": "山形県"
+      "prefId": 6,
+      "preference": "山形県",
+      "regionId": 2,
+      "region": "東北"
     },
     {
-      "id": 7,
-      "preference": "福島県"
+      "prefId": 7,
+      "preference": "福島県",
+      "regionId": 2,
+      "region": "東北"
     },
     {
-      "id": 8,
-      "preference": "茨城県"
+      "prefId": 8,
+      "preference": "茨城県",
+      "regionId": 3,
+      "region": "関東"
     },
     {
-      "id": 9,
-      "preference": "栃木県"
+      "prefId": 9,
+      "preference": "栃木県",
+      "regionId": 3,
+      "region": "関東"
     },
     {
-      "id": 10,
-      "preference": "群馬県"
+      "prefId": 10,
+      "preference": "群馬県",
+      "regionId": 3,
+      "region": "関東"
     },
     {
-      "id": 11,
-      "preference": "埼玉県"
+      "prefId": 11,
+      "preference": "埼玉県",
+      "regionId": 3,
+      "region": "関東"
     },
     {
-      "id": 12,
-      "preference": "千葉県"
+      "prefId": 12,
+      "preference": "千葉県",
+      "regionId": 3,
+      "region": "関東"
     },
     {
-      "id": 13,
-      "preference": "東京都"
+      "prefId": 13,
+      "preference": "東京都",
+      "regionId": 3,
+      "region": "関東"
     },
     {
-      "id": 14,
-      "preference": "神奈川県"
+      "prefId": 14,
+      "preference": "神奈川県",
+      "regionId": 3,
+      "region": "関東"
     },
     {
-      "id": 15,
-      "preference": "新潟県"
+      "prefId": 15,
+      "preference": "新潟県",
+      "regionId": 4,
+      "region": "中部"
     },
     {
-      "id": 16,
-      "preference": "富山県"
+      "prefId": 16,
+      "preference": "富山県",
+      "regionId": 4,
+      "region": "中部"
     },
     {
-      "id": 17,
-      "preference": "石川県"
+      "prefId": 17,
+      "preference": "石川県",
+      "regionId": 4,
+      "region": "中部"
     },
     {
-      "id": 18,
-      "preference": "福井県"
+      "prefId": 18,
+      "preference": "福井県",
+      "regionId": 4,
+      "region": "中部"
     },
     {
-      "id": 19,
-      "preference": "山梨県"
+      "prefId": 19,
+      "preference": "山梨県",
+      "regionId": 4,
+      "region": "中部"
+    },
+    {
+      "prefId": 20,
+      "preference": "長野県",
+      "regionId": 4,
+      "region": "中部"
+    },
+    {
+      "prefId": 21,
+      "preference": "岐阜県",
+      "regionId": 4,
+      "region": "中部"
+    },
+    {
+      "prefId": 22,
+      "preference": "静岡県",
+      "regionId": 4,
+      "region": "中部"
+    },
+    {
+      "prefId": 23,
+      "preference": "愛知県",
+      "regionId": 4,
+      "region": "中部"
     }, {
-      "id": 20,
-      "preference": "長野県"
+      "prefId": 24,
+      "preference": "三重県",
+      "regionId": 5,
+      "region": "近畿"
     },
     {
-      "id": 21,
-      "preference": "岐阜県"
+      "prefId": 25,
+      "preference": "滋賀県",
+      "regionId": 5,
+      "region": "近畿"
     },
     {
-      "id": 22,
-      "preference": "静岡県"
+      "prefId": 26,
+      "preference": "京都府",
+      "regionId": 5,
+      "region": "近畿"
     },
     {
-      "id": 23,
-      "preference": "愛知県"
-    }, {
-      "id": 24,
-      "preference": "三重県"
+      "prefId": 27,
+      "preference": "大阪府",
+      "regionId": 5,
+      "region": "近畿"
     },
     {
-      "id": 25,
-      "preference": "滋賀県"
+      "prefId": 28,
+      "preference": "兵庫県",
+      "regionId": 5,
+      "region": "近畿"
     },
     {
-      "id": 26,
-      "preference": "京都府"
+      "prefId": 29,
+      "preference": "奈良県",
+      "regionId": 5,
+      "region": "近畿"
     },
     {
-      "id": 27,
-      "preference": "大阪府"
+      "prefId": 30,
+      "preference": "和歌山県",
+      "regionId": 5,
+      "region": "近畿"
     },
     {
-      "id": 28,
-      "preference": "兵庫県"
+      "prefId": 31,
+      "preference": "鳥取県",
+      "regionId": 6,
+      "region": "中国"
     },
     {
-      "id": 29,
-      "preference": "奈良県"
+      "prefId": 32,
+      "preference": "島根県",
+      "regionId": 6,
+      "region": "中国"
     },
     {
-      "id": 30,
-      "preference": "和歌山県"
+      "prefId": 33,
+      "preference": "岡山県",
+      "regionId": 6,
+      "region": "中国"
     },
     {
-      "id": 31,
-      "preference": "鳥取県"
+      "prefId": 34,
+      "preference": "広島県",
+      "regionId": 6,
+      "region": "中国"
     },
     {
-      "id": 32,
-      "preference": "島根県"
+      "prefId": 35,
+      "preference": "山口県",
+      "regionId": 6,
+      "region": "中国"
     },
     {
-      "id": 33,
-      "preference": "岡山県"
+      "prefId": 36,
+      "preference": "徳島県",
+      "regionId": 7,
+      "region": "四国"
     },
     {
-      "id": 34,
-      "preference": "広島県"
-    }, {
-      "id": 35,
-      "preference": "山口県"
+      "prefId": 37,
+      "preference": "香川県",
+      "regionId": 7,
+      "region": "四国"
     },
     {
-      "id": 36,
-      "preference": "徳島県"
+      "prefId": 38,
+      "preference": "愛媛県",
+      "regionId": 7,
+      "region": "四国"
     },
     {
-      "id": 37,
-      "preference": "香川県"
+      "prefId": 39,
+      "preference": "高知県",
+      "regionId": 7,
+      "region": "四国"
     },
     {
-      "id": 38,
-      "preference": "愛媛県"
+      "prefId": 40,
+      "preference": "福岡県",
+      "regionId": 8,
+      "region": "九州"
     },
     {
-      "id": 39,
-      "preference": "高知県"
+      "prefId": 41,
+      "preference": "佐賀県",
+      "regionId": 8,
+      "region": "九州"
     },
     {
-      "id": 40,
-      "preference": "福岡県"
+      "prefId": 42,
+      "preference": "長崎県",
+      "regionId": 8,
+      "region": "九州"
     },
     {
-      "id": 41,
-      "preference": "佐賀県"
+      "prefId": 43,
+      "preference": "熊本県",
+      "regionId": 8,
+      "region": "九州"
     },
     {
-      "id": 42,
-      "preference": "長崎県"
+      "prefId": 44,
+      "preference": "大分県",
+      "regionId": 8,
+      "region": "九州"
     },
     {
-      "id": 43,
-      "preference": "熊本県"
+      "prefId": 45,
+      "preference": "宮崎県",
+      "regionId": 8,
+      "region": "九州"
     },
     {
-      "id": 44,
-      "preference": "大分県"
+      "prefId": 46,
+      "preference": "鹿児島県",
+      "regionId": 8,
+      "region": "九州"
     },
     {
-      "id": 45,
-      "preference": "宮崎県"
-    },
-    {
-      "id": 46,
-      "preference": "鹿児島県"
-    },
-    {
-      "id": 47,
-      "preference": "沖縄県"
+      "prefId": 47,
+      "preference": "沖縄県",
+      "regionId": 8,
+      "region": "九州"
     }
   ]
 }

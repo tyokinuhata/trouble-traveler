@@ -1,14 +1,14 @@
 <template>
   <div class="pages">
-    <h1>Trouble Traveler</h1>
-    <button type="button" @click="gacha()">ガチャる</button>
-    <div>
+    <h1 class="title">Trouble Traveler</h1>
+    <div class="content">
+      <div class="imgWrapper">
+        <img :src="'../../static/preferences/' + travel.image + '.png'" alt="" class="img">
+      </div>
       <div>{{ travel.preference }}</div>
       <div>{{ travel.region }}</div>
-      <div>
-        <img :src="'../../static/preferences/' + travel.image + '.png'" alt="">
-      </div>
     </div>
+    <div class="button" @click="gacha()">ガチャる</div>
   </div>
 </template>
 
@@ -40,7 +40,7 @@
         setTimeout(function roop() {
 
           getRandom()
-          sec++
+          sec += 2
 
           if (sec < 100) {
             setTimeout(roop, sec)
@@ -50,3 +50,44 @@
     }
   }
 </script>
+
+<style lang="scss" scoped>
+  .title {
+    text-align: center;
+  }
+  .content {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+  }
+  .imgWrapper {
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+  }
+  .img {
+    width: 100%;
+  }
+  .button {
+    width: 250px;
+    height: 230px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 15px 0 #942343;
+    background: #dc143c;
+    text-align: center;
+    line-height: 230px;
+    letter-spacing: 3px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+
+    &:active {
+      transform: translateY(15px);
+      box-shadow: none;
+    }
+  }
+</style>

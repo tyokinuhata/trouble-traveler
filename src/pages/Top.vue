@@ -5,10 +5,15 @@
       <div class="imgWrapper">
         <img :src="'../../static/preferences/' + travel.image + '.png'" alt="" class="img">
       </div>
-      <div>{{ travel.preference }}</div>
-      <div>{{ travel.region }}</div>
+      <div class="info">
+        <div>{{ travel.preference }}</div>
+        <div>{{ travel.region }}</div>
+        <div>{{ travel.description }}</div>
+      </div>
     </div>
-    <div class="button" @click="gacha()">ガチャる</div>
+    <div class="buttonWrapper">
+      <div class="button" @click="gacha()">ガチャる</div>
+    </div>
   </div>
 </template>
 
@@ -22,6 +27,7 @@
         travel: {
           preference: '？？？',
           region: '？？？',
+          description: '？？？',
           image: ''
         }
       }
@@ -34,6 +40,7 @@
           id = Math.floor(Math.random() * 46 + 1)
           this.travel.preference = this.preferences.result[id].preference
           this.travel.region = this.preferences.result[id].region
+          this.travel.description = this.preferences.result[id].description
           this.travel.image = this.preferences.result[id].image
         }
 
@@ -78,6 +85,12 @@
     bottom: 0;
     left: 0;
     margin: auto;
+  }
+  .info {
+    margin-top: 10px;
+  }
+  .buttonWrapper {
+    margin-top: 10px;
   }
   .button {
     width: 250px;

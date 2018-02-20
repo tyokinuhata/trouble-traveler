@@ -24,9 +24,23 @@
     },
     methods: {
       gacha() {
-        const id = Math.floor(Math.random() * 46 + 1)
-        this.travel.preference = this.preferences.result[id].preference
-        this.travel.region = this.preferences.result[id].region
+        let id, sec = 0
+
+        const getRandom = () => {
+          id = Math.floor(Math.random() * 46 + 1)
+          this.travel.preference = this.preferences.result[id].preference
+          this.travel.region = this.preferences.result[id].region
+        }
+
+        setTimeout(function roop() {
+
+          getRandom()
+          sec++
+
+          if (sec < 100) {
+            setTimeout(roop, sec)
+          }
+        }, sec)
       }
     }
   }

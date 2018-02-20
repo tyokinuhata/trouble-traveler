@@ -20,8 +20,8 @@
       return {
         preferences: preferences,
         travel: {
-          preference: '',
-          region: '',
+          preference: '？？？',
+          region: '？？？',
           image: ''
         }
       }
@@ -54,6 +54,7 @@
 <style lang="scss" scoped>
   .title {
     text-align: center;
+    font-family: 'Monaco', courier, monospace;
   }
   .content {
     width: 100%;
@@ -61,14 +62,22 @@
     text-align: center;
   }
   .imgWrapper {
+    position: relative;
     width: 200px;
     height: 250px;
     margin: 0 auto;
     border: 10px solid #ccc;
     border-radius: 10px;
+    vertical-align: middle;
   }
   .img {
+    position: absolute;
     width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
   }
   .button {
     width: 250px;

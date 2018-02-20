@@ -5,6 +5,9 @@
     <div>
       <div>{{ travel.preference }}</div>
       <div>{{ travel.region }}</div>
+      <div>
+        <img :src="'../../static/preferences/' + travel.image + '.png'" alt="">
+      </div>
     </div>
   </div>
 </template>
@@ -18,7 +21,8 @@
         preferences: preferences,
         travel: {
           preference: '',
-          region: ''
+          region: '',
+          image: ''
         }
       }
     },
@@ -30,6 +34,7 @@
           id = Math.floor(Math.random() * 46 + 1)
           this.travel.preference = this.preferences.result[id].preference
           this.travel.region = this.preferences.result[id].region
+          this.travel.image = this.preferences.result[id].image
         }
 
         setTimeout(function roop() {

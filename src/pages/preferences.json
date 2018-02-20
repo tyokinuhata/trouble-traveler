@@ -4,282 +4,330 @@
       "prefId": 1,
       "preference": "北海道",
       "regionId": 1,
-      "region": "北海道"
+      "region": "北海道",
+      "image": "hokkaido"
     },
     {
       "prefId": 2,
       "preference": "青森県",
       "regionId": 2,
-      "region": "東北"
+      "region": "東北",
+      "image": "aomori"
     },
     {
       "prefId": 3,
       "preference": "岩手県",
       "regionId": 2,
-      "region": "東北"
+      "region": "東北",
+      "image": "iwate"
     },
     {
       "prefId": 4,
       "preference": "宮城県",
       "regionId": 2,
-      "region": "東北"
+      "region": "東北",
+      "image": "miyagi"
     },
     {
       "prefId": 5,
       "preference": "秋田県",
       "regionId": 2,
-      "region": "東北"
+      "region": "東北",
+      "image": "akita"
     },
     {
       "prefId": 6,
       "preference": "山形県",
       "regionId": 2,
-      "region": "東北"
+      "region": "東北",
+      "image": "yamagata"
     },
     {
       "prefId": 7,
       "preference": "福島県",
       "regionId": 2,
-      "region": "東北"
+      "region": "東北",
+      "image": "fukushima"
     },
     {
       "prefId": 8,
       "preference": "茨城県",
       "regionId": 3,
-      "region": "関東"
+      "region": "関東",
+      "image": "ibaraki"
     },
     {
       "prefId": 9,
       "preference": "栃木県",
       "regionId": 3,
-      "region": "関東"
+      "region": "関東",
+      "image": "tochigi"
     },
     {
       "prefId": 10,
       "preference": "群馬県",
       "regionId": 3,
-      "region": "関東"
+      "region": "関東",
+      "image": "gunma"
     },
     {
       "prefId": 11,
       "preference": "埼玉県",
       "regionId": 3,
-      "region": "関東"
+      "region": "関東",
+      "image": "saitama"
     },
     {
       "prefId": 12,
       "preference": "千葉県",
       "regionId": 3,
-      "region": "関東"
+      "region": "関東",
+      "image": "chiba"
     },
     {
       "prefId": 13,
       "preference": "東京都",
       "regionId": 3,
-      "region": "関東"
+      "region": "関東",
+      "image": "tokyo"
     },
     {
       "prefId": 14,
       "preference": "神奈川県",
       "regionId": 3,
-      "region": "関東"
+      "region": "関東",
+      "image": "kanagawa"
     },
     {
       "prefId": 15,
       "preference": "新潟県",
       "regionId": 4,
-      "region": "中部"
+      "region": "中部",
+      "image": "nigata"
     },
     {
       "prefId": 16,
       "preference": "富山県",
       "regionId": 4,
-      "region": "中部"
+      "region": "中部",
+      "image": "toyama"
     },
     {
       "prefId": 17,
       "preference": "石川県",
       "regionId": 4,
-      "region": "中部"
+      "region": "中部",
+      "image": "ishikawa"
     },
     {
       "prefId": 18,
       "preference": "福井県",
       "regionId": 4,
-      "region": "中部"
+      "region": "中部",
+      "image": "fukui"
     },
     {
       "prefId": 19,
       "preference": "山梨県",
       "regionId": 4,
-      "region": "中部"
+      "region": "中部",
+      "image": "yamanashi"
     },
     {
       "prefId": 20,
       "preference": "長野県",
       "regionId": 4,
-      "region": "中部"
+      "region": "中部",
+      "image": "nagano"
     },
     {
       "prefId": 21,
       "preference": "岐阜県",
       "regionId": 4,
-      "region": "中部"
+      "region": "中部",
+      "image": "gifu"
     },
     {
       "prefId": 22,
       "preference": "静岡県",
       "regionId": 4,
-      "region": "中部"
+      "region": "中部",
+      "image": "shizuoka"
     },
     {
       "prefId": 23,
       "preference": "愛知県",
       "regionId": 4,
-      "region": "中部"
-    }, {
+      "region": "中部",
+      "image": "aichi"
+    },
+    {
       "prefId": 24,
       "preference": "三重県",
       "regionId": 5,
-      "region": "近畿"
+      "region": "近畿",
+      "image": "mie"
     },
     {
       "prefId": 25,
       "preference": "滋賀県",
       "regionId": 5,
-      "region": "近畿"
+      "region": "近畿",
+      "image": "shiga"
     },
     {
       "prefId": 26,
       "preference": "京都府",
       "regionId": 5,
-      "region": "近畿"
+      "region": "近畿",
+      "image": "kyoto"
     },
     {
       "prefId": 27,
       "preference": "大阪府",
       "regionId": 5,
-      "region": "近畿"
+      "region": "近畿",
+      "image": "osaka"
     },
     {
       "prefId": 28,
       "preference": "兵庫県",
       "regionId": 5,
-      "region": "近畿"
+      "region": "近畿",
+      "image": "hyogo"
     },
     {
       "prefId": 29,
       "preference": "奈良県",
       "regionId": 5,
-      "region": "近畿"
+      "region": "近畿",
+      "image": "nara"
     },
     {
       "prefId": 30,
       "preference": "和歌山県",
       "regionId": 5,
-      "region": "近畿"
+      "region": "近畿",
+      "image": "wakayama"
     },
     {
       "prefId": 31,
       "preference": "鳥取県",
       "regionId": 6,
-      "region": "中国"
+      "region": "中国",
+      "image": "tottori"
     },
     {
       "prefId": 32,
       "preference": "島根県",
       "regionId": 6,
-      "region": "中国"
+      "region": "中国",
+      "image": "shimane"
     },
     {
       "prefId": 33,
       "preference": "岡山県",
       "regionId": 6,
-      "region": "中国"
+      "region": "中国",
+      "image": "okayama"
     },
     {
       "prefId": 34,
       "preference": "広島県",
       "regionId": 6,
-      "region": "中国"
+      "region": "中国",
+      "image": "hiroshima"
     },
     {
       "prefId": 35,
       "preference": "山口県",
       "regionId": 6,
-      "region": "中国"
+      "region": "中国",
+      "image": "yamaguchi"
     },
     {
       "prefId": 36,
       "preference": "徳島県",
       "regionId": 7,
-      "region": "四国"
+      "region": "四国",
+      "image": "tokushima"
     },
     {
       "prefId": 37,
       "preference": "香川県",
       "regionId": 7,
-      "region": "四国"
+      "region": "四国",
+      "image": "kagawa"
     },
     {
       "prefId": 38,
       "preference": "愛媛県",
       "regionId": 7,
-      "region": "四国"
+      "region": "四国",
+      "image": "ehime"
     },
     {
       "prefId": 39,
       "preference": "高知県",
       "regionId": 7,
-      "region": "四国"
+      "region": "四国",
+      "image": "kochi"
     },
     {
       "prefId": 40,
       "preference": "福岡県",
       "regionId": 8,
-      "region": "九州"
+      "region": "九州",
+      "image": "fukuoka"
     },
     {
       "prefId": 41,
       "preference": "佐賀県",
       "regionId": 8,
-      "region": "九州"
+      "region": "九州",
+      "image": "saga"
     },
     {
       "prefId": 42,
       "preference": "長崎県",
       "regionId": 8,
-      "region": "九州"
+      "region": "九州",
+      "image": "nagasaki"
     },
     {
       "prefId": 43,
       "preference": "熊本県",
       "regionId": 8,
-      "region": "九州"
+      "region": "九州",
+      "image": "kumamoto"
     },
     {
       "prefId": 44,
       "preference": "大分県",
       "regionId": 8,
-      "region": "九州"
+      "region": "九州",
+      "image": "oita"
     },
     {
       "prefId": 45,
       "preference": "宮崎県",
       "regionId": 8,
-      "region": "九州"
+      "region": "九州",
+      "image": "miyazaki"
     },
     {
       "prefId": 46,
       "preference": "鹿児島県",
       "regionId": 8,
-      "region": "九州"
+      "region": "九州",
+      "image": "kagoshima"
     },
     {
       "prefId": 47,
       "preference": "沖縄県",
       "regionId": 8,
-      "region": "九州"
+      "region": "九州",
+      "image": "okinawa"
     }
   ]
 }

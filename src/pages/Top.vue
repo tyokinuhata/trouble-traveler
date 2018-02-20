@@ -38,10 +38,10 @@
 
         const getRandom = () => {
           id = Math.floor(Math.random() * 46 + 1)
-          this.travel.preference = this.preferences.result[id].preference
-          this.travel.region = this.preferences.result[id].region
-          this.travel.description = this.preferences.result[id].description
-          this.travel.image = this.preferences.result[id].image
+          this.travel.preference = this.preferences.result[id - 1].preference
+          this.travel.region = this.preferences.result[id - 1].region
+          this.travel.description = this.preferences.result[id - 1].description
+          this.travel.image = this.preferences.result[id - 1].image
         }
 
         setTimeout(function roop() {

@@ -1,5 +1,5 @@
-# なんこれ
-ボタンをﾎﾟﾁｰするだけで旅行先を決めてくれます🗾🗻🗼⛩
+# What is this?
+Decide the next travel destination fastest🗾🗻🗼⛩
 
 # Build & Setup
 

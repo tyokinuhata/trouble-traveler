@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title">Trouble Traveler</h1>
-    <h2 class="subtitle">Decide the next travel destination fastest.</h2>
+    <h2 class="subtitle">Decide the next travel destination fastest🗾🗻🗼⛩</h2>
     <div class="content">
       <div class="imgWrapper">
         <img :src="'./static/preferences/' + travel.image + '.png'" alt="" class="img">

@@ -129,5 +129,11 @@
       transform: translateY(15px);
       box-shadow: none;
     }
+
+    @media screen and (max-width: 500px) {
+      height: 80px;
+      border-radius: 5px;
+      line-height: 80px;
+    }
   }
 </style>

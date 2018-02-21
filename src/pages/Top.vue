@@ -1,13 +1,16 @@
 <template>
   <div class="pages">
     <h1 class="title">Trouble Traveler</h1>
+    <h2 class="subtitle">Decide the next travel destination fastest.</h2>
     <div class="content">
       <div class="imgWrapper">
         <img :src="'./static/preferences/' + travel.image + '.png'" alt="" class="img">
       </div>
       <div class="info">
-        <div>{{ travel.preference }}</div>
-        <div>{{ travel.region }}</div>
+        <div>
+          <span class="preference">{{ travel.preference }}</span>
+          <span>{{ travel.region }}</span>
+        </div>
         <div>{{ travel.description }}</div>
       </div>
     </div>
@@ -28,7 +31,7 @@
           preference: '？？？',
           region: '？？？',
           description: '？？？',
-          image: ''
+          image: 'nidukuri'
         }
       }
     },
@@ -60,8 +63,15 @@
 
 <style lang="scss" scoped>
   .title {
+    margin-bottom: 5px;
     text-align: center;
     font-family: 'Monaco', courier, monospace;
+  }
+  .subtitle {
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Monaco', courier, monospace;
+    font-size: 16px;
   }
   .content {
     width: 100%;
@@ -73,7 +83,7 @@
     width: 200px;
     height: 250px;
     margin: 0 auto;
-    border: 10px solid #ccc;
+    border: 10px solid #ffc0cb;
     border-radius: 10px;
     vertical-align: middle;
   }
@@ -88,6 +98,9 @@
   }
   .info {
     margin-top: 10px;
+  }
+  .preference {
+    font-size: 24px;
   }
   .buttonWrapper {
     margin-top: 10px;

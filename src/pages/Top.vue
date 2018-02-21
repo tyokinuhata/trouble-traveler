@@ -66,6 +66,10 @@
     margin-bottom: 5px;
     text-align: center;
     font-family: 'Monaco', courier, monospace;
+
+    @media screen and (max-width: 500px) {
+      margin-top: 5px;
+    }
   }
   .subtitle {
     margin-top: 5px;
@@ -104,6 +108,10 @@
   }
   .buttonWrapper {
     margin-top: 10px;
+
+    @media screen and (max-width: 500px) {
+      margin-top: 0;
+    }
   }
   .button {
     width: 250px;

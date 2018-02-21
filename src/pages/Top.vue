@@ -62,6 +62,11 @@
 </script>
 
 <style lang="scss" scoped>
+  .pages {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
   .title {
     margin-bottom: 5px;
     text-align: center;

@@ -79,7 +79,7 @@
   }
   .content {
     width: 100%;
-    height: 350px;
+    height: 345px;
     text-align: center;
   }
   .imgWrapper {

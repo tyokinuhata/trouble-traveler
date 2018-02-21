@@ -1,5 +1,5 @@
 <template>
-  <div class="pages">
+  <div>
     <h1 class="title">Trouble Traveler</h1>
     <h2 class="subtitle">Decide the next travel destination fastest.</h2>
     <div class="content">
@@ -62,11 +62,6 @@
 </script>
 
 <style lang="scss" scoped>
-  .pages {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-  }
   .title {
     margin-bottom: 5px;
     text-align: center;

@@ -134,9 +134,9 @@
     }
 
     @media screen and (max-width: 500px) {
-      height: 80px;
+      height: 60px;
       border-radius: 5px;
-      line-height: 80px;
+      line-height: 60px;
     }
   }
 </style>

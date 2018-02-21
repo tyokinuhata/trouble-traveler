@@ -3,7 +3,7 @@
     <h1 class="title">Trouble Traveler</h1>
     <div class="content">
       <div class="imgWrapper">
-        <img :src="'../../static/preferences/' + travel.image + '.png'" alt="" class="img">
+        <img :src="'./static/preferences/' + travel.image + '.png'" alt="" class="img">
       </div>
       <div class="info">
         <div>{{ travel.preference }}</div>
